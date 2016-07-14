@@ -24,7 +24,9 @@
 	* -d  延迟时间，默认0.5秒，防止服务器堵塞，漏报
 	* -E  自动从用户名字典中提取@后面的域名作为pop服务器爆破
 * 示例1：
+
 #### mailbrute.py -U user.txt -P pass.txt -s pop.163.com -p 110
 * 示例2：
+
 #### mailbrute.py -U user.txt -P pass.txt -p 110 -E 
 
