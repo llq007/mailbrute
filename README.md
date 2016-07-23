@@ -1,4 +1,4 @@
-﻿# mailbrute
+﻿# mailbrute.py
 
 ## Lib安装：
 
@@ -13,7 +13,7 @@
 * mailbrute.py -h 参数可以查看各参数的用法
 
 ===============
-## Usage：
+## Usages：
 
 * mailbrute.py [Options]...
 	* -U  <用户名字典文件> (需放在mailbrute.py同目录下)
@@ -23,6 +23,7 @@
 	* -t  线程数，默认为10
 	* -d  延迟时间，默认0.5秒，防止服务器堵塞，漏报
 	* -E  自动从用户名字典中提取@后面的域名作为pop服务器爆破
+------	
 	* 示例1：
 
 		#### mailbrute.py -U user.txt -P pass.txt -s pop.163.com -p 110
